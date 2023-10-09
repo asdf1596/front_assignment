@@ -24,26 +24,72 @@ body {
     width: 400px;
     display: flex;
     flex-direction: column;
+    transform: translate(-100px, 0);
 }
 .b {
-    transform: translate(0, -90px);
-    padding: 20px;
-    background-color: white;
     display: flex;
     flex-direction: column;
 }
+.c > * {
+    padding: 15px 0;
+}
+.c {
+    transform: translate(0, -90px);
+    padding: 15px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 450px;
+}
 #searching input {
-    width: 350px;
+    width: 420px;
     height: 55px;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 7px;
     border: 1px solid rgb(172, 172, 172);
-    background: #eee;
+    background: white;
     font-size: 17px;
     transition: all 0.5s;
 }
 
 #searching input:hover {
     border: 1px solid blue;
+}
+.login {
+    background-color: blue;
+    opacity: 0.7;
+    color: white;
+    border-radius: 7px;
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgot {
+    opacity: 0.7;
+    color: blue;
+    border-radius: 7px;
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign {
+    background-color: green;
+    opacity: 0.7;
+    color: white;
+    border-radius: 7px;
+    width: 230px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
 }
