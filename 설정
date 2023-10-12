@@ -1,0 +1,10 @@
+"editor.formatOnSave": true,
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"prettier.tabWidth": 4,
+"workbench.iconTheme": "material-icon-theme",
+"workbench.colorTheme": "Atom One Dark",
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"explorer.compactFolders": false,
+"editor.tokenColorCustomizations": {
+        "comments": "#d39e9e"
+    },
