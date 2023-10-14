@@ -7,17 +7,93 @@ body {
 .A {
     display: flex;
     justify-content: center;
-    align-items: center;
+    transform: translate(0, 62.5%);
+    margin-top: -375px;
 }
 .a {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: white;
     margin: 0 107px 0 0;
     height: 750px;
     width: 400px;
-    background-color: aqua;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(0, 0, 0, 0.2), 10px -10px 20px rgba(0, 0, 0, 0.2);
 }
 .b {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: white;
     margin: 0 0 0 107px;
     height: 750px;
     width: 400px;
-    background-color: aqua;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(0, 0, 0, 0.2), 10px -10px 20px rgba(0, 0, 0, 0.2);
+}
+.a_1 {
+    width: 360px;
+    transform: translate(20px, 40px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.a_2 {
+    transform: translate(160px, 80px);
+    border-radius: 70%;
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(0, 0, 0, 0.2), 10px -10px 20px rgba(0, 0, 0, 0.2);
+}
+.rewind {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -60px;
+    left: -100px;
+}
+.a_3 {
+    transform: translate(0, 90px);
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.a_4 {
+    transform: translate(0, 100px);
+    text-align: center;
+    font-size: large;
+    opacity: 0.5;
+}
+.a_5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translate(0, 130px);
+}
+.a_5_1 {
+    line-height: 50px;
+    margin: 0 10px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+}
+.a_5_2 {
+    line-height: 50px;
+    margin: 0 10px;
+    color: black;
+    text-align: center;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.2),
+        -10px -10px 20px rgba(0, 0, 0, 0.2), 10px -10px 20px rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
 }
